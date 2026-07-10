@@ -4,7 +4,7 @@ cask "mtrace" do
 
   on_macos do
     on_intel do
-      sha256 "a32d77741dcd16c8af3c598eb2e0885a3fdb9fc01bb3674e429696b2324fcf1b"
+      sha256 "f155099d4a335eb198009a656872342a53afd278259dce617a77431cbffb38ff"
       url "https://github.com/mtrace-project/mtrace/releases/download/v#{version}/mtrace_#{version}_Darwin_x86_64.zip",
         verified: "github.com/mtrace-project/mtrace",
         cookies: {
@@ -12,7 +12,7 @@ cask "mtrace" do
         }
     end
     on_arm do
-      sha256 "298d18c359fd44703bbf717db81fd9c6240d40b944c9b964330895936783505b"
+      sha256 "a2057b51fcc153ba8aac62a41b62705d6cbc7501fbbc6d2c54bf9761d06ebaaf"
       url "https://github.com/mtrace-project/mtrace/releases/download/v#{version}/mtrace_#{version}_Darwin_arm64.zip",
         verified: "github.com/mtrace-project/mtrace",
         cookies: {
